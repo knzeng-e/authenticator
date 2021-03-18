@@ -1,0 +1,29 @@
+{
+  "name": "authenticator",
+  "version": "1.0.0",
+  "description": "A simple nodejs application to authenticate users",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knzeng-e/authenticator.git"
+  },
+  "author": "th0t_nz1g",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/knzeng-e/authenticator/issues"
+  },
+  "homepage": "https://github.com/knzeng-e/authenticator#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.0",
+    "nodemon": "^2.0.7"
+  }
+}
